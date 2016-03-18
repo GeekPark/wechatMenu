@@ -8,7 +8,7 @@ var inquirer = require("inquirer");
 // 2. rails c -e production
 // 3. Rails.cache.fetch('wechat_access_token')
 // 4. if is nil , you should trigger get access_token on the backend
-var access_token = 'your token';
+var access_token = require('./token');
 var url;
 var menuJSON = 'menu.json';
 
