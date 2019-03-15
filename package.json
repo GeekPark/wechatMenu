@@ -2,9 +2,13 @@
   "name": "wechatmenu",
   "version": "1.0.0",
   "description": "微信自定义菜单更新工具 ------ LICENSE: [MIT](http://opensource.org/licenses/MIT)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekpark/wechatmenu.git"
+  },
   "main": "updateWechatMenu.js",
   "dependencies": {
-    "inquirer": "^0.8.2",
+    "inquirer": "^6.2.2",
     "jsonfile": "^2.0.0",
     "request": "^2.67.0"
   },
